@@ -5,7 +5,7 @@ Resources:
   MyS3Bucket:
     Type: 'AWS::S3::Bucket'
     Properties:
-      BucketName: my-unique-bucket-name
+      BucketName: ramya2012-bucket
       VersioningConfiguration:
         Status: Enabled
       CorsConfiguration:
