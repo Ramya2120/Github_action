@@ -25,6 +25,7 @@ jobs:
         with:
           name: recent-s3-stack
           template: templates/s3-bucket.yml
+          template: templates/simple-s3.yml
           capabilities: CAPABILITY_IAM
           no-fail-on-empty-changeset: "1"
 
