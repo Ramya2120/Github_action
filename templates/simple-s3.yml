@@ -1,6 +1,6 @@
-resources: 
+Resources: 
   MYS3BUCKET2:
-    Type : 'AWS::S3::BUCKET'
-    Properies : 
+    Type : 'AWS::S3::Bucket'
+    Properties : 
       BucketName : ramya2000000-bucket
     
