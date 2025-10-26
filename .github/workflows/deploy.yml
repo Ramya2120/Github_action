@@ -24,7 +24,7 @@ jobs:
         uses: aws-actions/aws-cloudformation-github-deploy@v1
         with:
           name: my-s3-stack
-          template: s3-bucket.yml
+          template: template/s3-bucket.yml
           capabilities: CAPABILITY_IAM
           no-fail-on-empty-changeset: "1"
 
