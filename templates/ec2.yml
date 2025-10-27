@@ -1,7 +1,10 @@
 Resources :
   MYEC2:
-    Type : 'AWS::EC2::Instance'
+    Type: 'AWS::EC2::Instance'
     Properties: 
     ImageId: 'ami-0da143'
     InstanceType : t2.micro
-      
+  Outputs: 
+    Description : "Ec2 instance ID"
+    Value: !Ref MYEC2
+  
