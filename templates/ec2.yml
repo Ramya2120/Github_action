@@ -4,7 +4,7 @@ Resources :
     Properties: 
       ImageId: 'ami-07860a2d7eb515d9a
       InstanceType : t2.micro
-  Outputs: 
+Outputs: 
     Ec2InstanceID: 
       Description : "Ec2 instance ID"
       Value: !Ref MYEC2
